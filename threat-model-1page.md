@@ -4,7 +4,6 @@
 - Thành viên 1: Nguyễn Gia Huân
 - Thành viên 2: Vữ Đức Sơn
 
-
 ## Assets
 - Nội dung bản tin (Payload): Dữ liệu gốc mà người gửi muốn truyền tới người nhận một cách bí mật.
 - Khóa giải mã (DES Key): Khóa 8-byte dùng để mã hóa và giải mã dữ liệu.
