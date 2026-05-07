@@ -6,6 +6,7 @@ from des_socket_utils import encrypt_des_cbc, build_packet
 # Nhom: Pham Danh Thai and Nguyen Dinh Tri
 # Lab 3 - FIT4012
 
+
 SERVER_IP = os.getenv('SERVER_IP', '127.0.0.1')
 SERVER_PORT = int(os.getenv('SERVER_PORT', '6000'))
 MESSAGE_ENV = os.getenv('MESSAGE')
