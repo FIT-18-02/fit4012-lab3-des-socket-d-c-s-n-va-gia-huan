@@ -6,7 +6,6 @@ from Crypto.Cipher import DES
 BLOCK_SIZE = 8
 HEADER_SIZE = 8 + 8 + 4  # Key (8) + IV (8) + Length (4)
 
-
 def pad(data: bytes) -> bytes:
     """PKCS#7 padding"""
     pad_len = BLOCK_SIZE - (len(data) % BLOCK_SIZE)
