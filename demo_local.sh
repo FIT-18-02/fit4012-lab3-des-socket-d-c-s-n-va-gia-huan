@@ -28,6 +28,7 @@ receiver_pid=$!
 sleep 2
 
 
+
 # 2. Chạy Sender
 echo "[*] Sender dang gui tin nhan..."
 SERVER_IP=127.0.0.1 \
