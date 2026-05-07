@@ -4,6 +4,7 @@
 - Thành viên 1: Nguyễn Gia Huân
 - Thành viên 2: Vũ Đức Sơn
 
+
 ## Thành viên 1 góp ý cho thành viên 2
 Huân nhận xét: sơn đã xử lý rất tốt phần recv_exact trong receiver.py, đảm bảo đọc đúng số byte của Header và Ciphertext mà không bị mất dữ liệu. Các test case trong thư mục tests/ do Phương phụ trách chạy rất ổn định và bao quát được các trường hợp lỗi như sai Key hay dữ liệu bị sửa đổi (Tampered).
 
